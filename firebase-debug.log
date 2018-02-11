@@ -1,0 +1,27 @@
+[debug] [2018-02-09T19:07:34.189Z] ----------------------------------------------------------------------
+[debug] [2018-02-09T19:07:34.194Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MOAAL\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-02-09T19:07:34.195Z] CLI Version:   3.17.4
+[debug] [2018-02-09T19:07:34.195Z] Platform:      win32
+[debug] [2018-02-09T19:07:34.195Z] Node Version:  v8.9.4
+[debug] [2018-02-09T19:07:34.197Z] Time:          Fri Feb 09 2018 21:07:34 GMT+0200 (Egypt Standard Time)
+[debug] [2018-02-09T19:07:34.197Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-09T19:07:34.220Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-09T19:07:34.221Z] > authorizing via signed-in user
+[debug] [2018-02-09T19:07:34.224Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-09T19:07:34.225Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/yMkXruCOfNxv7jZmfgtcXLNlgM1hJ2YvZ8xhnrEmhamlM0_h4SvJYD7BzV01koVK',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Feb 09 2018 21:07:34 GMT+0200 (Egypt Standard Time)
+[debug] [2018-02-09T19:07:43.439Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-09T19:07:43.512Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/angular-follower-app  
+  
+ Fri Feb 09 2018 21:07:43 GMT+0200 (Egypt Standard Time)
+[debug] [2018-02-09T19:07:50.526Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-09T19:07:50.528Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/angular-follower-app/tokens  
+  
+ Fri Feb 09 2018 21:07:50 GMT+0200 (Egypt Standard Time)
+[debug] [2018-02-09T19:07:52.905Z] <<< HTTP RESPONSE 200
