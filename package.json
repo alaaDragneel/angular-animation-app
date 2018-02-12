@@ -9,9 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:gh": "ng build --prod --base-href='https://alaaDragneel.github.io/angular-follower-app/' && ngh",
+    "deploy:gh": "ng build --prod --base-href='https://alaaDragneel.github.io/angular-animation-app/' && ngh",
     "deploy:firebase": "ng build --prod && firebase deploy"
-
   },
   "private": true,
   "dependencies": {
@@ -28,6 +27,7 @@
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "rxjs": "^5.1.0",
+    "web-animations-js": "^2.3.1",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
